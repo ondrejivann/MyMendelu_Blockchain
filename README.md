@@ -50,3 +50,7 @@ Ještě před tím, než si uživatel stáhne test ze serveru, musí se nějaký
 Problém zde vidím, že pokud takhle budou uloženy testy na blockchianu se správnými výsledky a pouze zahashované, kdokoli může zjistit správnou možnost otázky, napadlo mě, ke každé odpovědi přidat nějaký tajný string, který vygeneruje server, zašifruje a pošle uživateli. Ten jej poté dešifruje a a ke každé odpovědi přidá, stejný string bude použitý i v odpovědích testu při jeho vytváření. Tento string by byl unikátní např. pro každý test.
 
 ![](https://github.com/ondrejivann/MyMendelu_Blockchain/blob/main/gamification_blockchain_scheme.png?raw=true)
+
+## Modul OnBoardingu
+Jedná se o interaktivního průvodce ve školním areálu a městě Brně. Když uživatel do tohoto modulu vejde, uvidí seznam scénářů, které se opět vytvářejí v administraci. Pokud bude chtít uživatel otevře daný scénář, zobrazí se mapa se seznamem lokací, které bude uživatel postupně navštěvovat (Je dáno pořadí, nejprve musí navštívit lokaci 1, aby se odekla lokace 2 atd.). Navštívení lokace znamená, že se vezme uživatelova pozice a skontroluje se, jestli je poblíž danného místa nebo na tom místě naskenuje QR kod. Tím se odemkne další lokace. O místě si může přečíst detailnější informace a pokud to zařízení povoluje, zobrazit 3D model místa (objektu) v rozšířené realitě.
+
